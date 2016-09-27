@@ -16,6 +16,24 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+        debug {
+            applicationIdSuffix ".debug"
+        }
+    }
+
+    productFlavors {
+        free {
+            applicationId "com.serguei.cursos.cursoandroidcme"
+            versionName "1.0-main"
+            buildConfigField 'String', 'HOST', '"my.url.for.free"'
+        }
+
+        premium {
+            applicationId "com.serguei.cursos.cursoandroidcme.premium"
+            versionName "1.0-premium"
+            buildConfigField 'String', 'HOST', '"my.url.for.premium"'
+        }
     }
 }
 
