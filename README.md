@@ -1,2 +1,4 @@
-# CursoAndroidCme
-Repositorio para el curso de Android Intermedio en CME Argentina
+# Segunda Clase
+* Android permissions
+* Android 6 permissions
+* Dynamic permissions request and handle
