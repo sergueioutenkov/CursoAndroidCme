@@ -93,9 +93,8 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
         //Removemos el item de la lista de forecasts
         forecasts.remove(position);
 
-        //Los siguientes metodos son para notificar al adapter que un item fue removido, y que el rango de items cambio.
+        //Los siguientes metodos son para notificar al adapter que un item fue removido.
         notifyItemRemoved(position);
-        notifyItemRangeChanged(position, forecasts.size());
     }
 
     //Clase que representa a nuestro elemento(vista) en el RecyclerView

@@ -13,7 +13,7 @@
         android:layout_height="100dp"
         android:layout_centerVertical="true"
         android:layout_marginLeft="10dp"
-        android:src="@drawable/ic_cloudy" />
+        tools:src="@drawable/ic_cloudy" />
 
     <TextView
         android:id="@+id/forecast_location"
