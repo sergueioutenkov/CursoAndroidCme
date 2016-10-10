@@ -1,2 +1,6 @@
-# CursoAndroidCme
-Repositorio para el curso de Android Intermedio en CME Argentina
+# Clase 5
+* Arquitectura en Android
+* MVP
+* WebServices
+* Retrofit
+* Picasso

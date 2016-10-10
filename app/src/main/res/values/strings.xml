@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">CursoAndroidCme</string>
+    <string name="app_name">Cat Meter</string>
+    <string name="refresh">Refresh</string>
+
+    <!--Identificador unico de la transicion-->
+    <string name="image_transition">catFactTransition</string>
 </resources>
