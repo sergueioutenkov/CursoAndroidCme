@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.serguei.cursos.cursoandroidcme.R;
 import com.serguei.cursos.cursoandroidcme.facts_list.CatFactsListMvp;
+import com.serguei.cursos.cursoandroidcme.facts_list.model.CatFactsInteractor;
 import com.serguei.cursos.cursoandroidcme.facts_list.presenter.CatFactsPresenter;
 
 import java.util.List;
@@ -37,7 +38,7 @@ public class CatFactsListActivity extends AppCompatActivity implements CatFactsL
         loadingBar = (ProgressBar) findViewById(R.id.loading_bar);
 
         //Instanciamos el presenter
-        presenter = new CatFactsPresenter(this);
+        presenter = new CatFactsPresenter(this, new CatFactsInteractor());
 
         //Le pedimos al presenter obtener los facts
         presenter.getCatFacts(30);

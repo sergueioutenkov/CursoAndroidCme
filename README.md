@@ -1,6 +1,5 @@
-# Clase 5
-* Arquitectura en Android
-* MVP
-* WebServices
-* Retrofit
-* Picasso
+# Clase 6
+* Testing
+* JUnit
+* Instrumentation
+* Espresso

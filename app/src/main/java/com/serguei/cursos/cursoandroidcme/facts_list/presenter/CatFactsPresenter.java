@@ -1,7 +1,6 @@
 package com.serguei.cursos.cursoandroidcme.facts_list.presenter;
 
 import com.serguei.cursos.cursoandroidcme.facts_list.CatFactsListMvp;
-import com.serguei.cursos.cursoandroidcme.facts_list.model.CatFactsInteractor;
 
 import java.util.List;
 
@@ -14,9 +13,9 @@ public class CatFactsPresenter implements CatFactsListMvp.Presenter {
     private CatFactsListMvp.View view;
     private CatFactsListMvp.Interactor interactor;
 
-    public CatFactsPresenter(CatFactsListMvp.View view) {
+    public CatFactsPresenter(CatFactsListMvp.View view, CatFactsListMvp.Interactor interactor) {
         this.view = view;
-        this.interactor = new CatFactsInteractor();
+        this.interactor = interactor;
     }
 
     @Override
